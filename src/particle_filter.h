@@ -68,7 +68,6 @@ class ParticleFilter {
 					   std::vector<int>& associations,
 					   std::vector<double>& sense_x,
 					   std::vector<double>& sense_y,
-					   std::vector<int>& association_idx,
 					   std::vector<double>& assoc_x,
 					   std::vector<double>& assoc_y);
   
