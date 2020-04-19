@@ -11,7 +11,8 @@ In this project, a particle filter based localization system was implemented in 
 
 ## System Architecture and Design
 The localization system uses a two-dimensional particle filter in its core. Several simulations were performed with number of particles equal to 15, 100 and 200.
-![alt text1][System Design.png "Localization system design]
+
+![alt text1][./System Design.png "Localization system design]
 
 ### Initialization
 The filter is initialized by retrieving the GPS x and y coordinates as well as initial heading.
@@ -35,5 +36,7 @@ New particles for the next time step are generated (drawn) from the overall dist
 Several configurations were tested based on different numbers of particles: 15, 100 and 200. For each of the tested configurations the project requirements were met.
 
 ![alt text1][Kidnapped_vehicle.gif "Localization results with 15 particles"]
+
 ![alt text1][100particles.png "Localization results with 100 particles"]
+
 ![alt text1][200particles.png "Localization results with 200 particles"]
