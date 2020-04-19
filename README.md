@@ -12,7 +12,7 @@ In this project, a particle filter based localization system was implemented in 
 ## System Architecture and Design
 The localization system uses a two-dimensional particle filter in its core. Several simulations were performed with number of particles equal to 15, 100 and 200.
 
-![alt text1][System Design.png]
+![alt text1][https://github.com/artemkaliuk/CarND-Kidnapped-Vehicle-Project/blob/master/System%20Design.png]
 
 ### Initialization
 The filter is initialized by retrieving the GPS x and y coordinates as well as initial heading.
