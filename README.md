@@ -3,12 +3,16 @@
 ## Project Description
 
 In this project, a particle filter based localization system was implemented in C++ in order to retrieve the coordinates and heading of a stolen vehicle.
+
 [//]: # (Image References)
 
 [image1]: ./System Design.png "Localization system design"
 [image2]: ./Kidnapped_vehicle.gif "Localization results with 15 particles"
 [image3]: ./100particles.png "Localization results with 100 particles"
 [image4]: ./200particles.png "Localization results with 200 particles"
+
+## [Rubric] https://review.udacity.com/#!/rubrics/747/view
+
 
 ## System Architecture and Design
 The localization system uses a two-dimensional particle filter in its core. Several simulations were performed with number of particles equal to 15, 100 and 200.
